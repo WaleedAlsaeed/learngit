@@ -1,0 +1,15 @@
+@font-face{
+    font-family: Dubai-bold;
+    src: url("/fonts/Dubai-Bold.otf");
+}
+
+@font-face{
+    font-family: Dubai-med;
+    src: url("/fonts/Dubai-Medium.otf");
+}
+
+@font-face{
+    font-family: Dubai-reg;
+    src: url("/fonts/Dubai-Regular.otf");
+}
+

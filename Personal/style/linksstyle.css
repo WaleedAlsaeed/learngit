@@ -1,0 +1,74 @@
+:root{
+    --bg: #293241; /* var(--bg, #293241) */
+    --btncolor: #97c0d8 /* var(--btncolor, #97c0d8) */
+}
+
+body{
+    background-color: var(--bg, #293241);
+}
+
+.icons {
+    fill: var(--btncolor, #97c0d8);
+}
+
+#icon-parent{
+    width: 40px;
+    margin: 20px;
+}
+
+a:hover .icons {
+    fill: #425266;
+
+}
+
+.t {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.l {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.l a{
+    width: 400px;
+    height: auto;
+    background-color: var(--btncolor);
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 15px 10px;
+    padding: 12.5px 5px;
+}
+
+
+.l a p{
+    font-family: Dubai-reg;
+    font-size: 22.5px;
+    text-align: center;
+    margin: auto;
+}
+
+.l a:hover {
+    background-color: #425266;
+}
+
+@media screen and (max-width: 600px) {
+    .block{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
